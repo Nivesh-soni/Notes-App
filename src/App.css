@@ -1,0 +1,47 @@
+.grad {
+  color: #1e1e1e;
+  border: none;
+  background: linear-gradient(162deg, rgba(0, 255, 212, 1) 0%, rgba(0, 115, 255, 1) 100%);
+}
+
+.custom-input {
+  height: 50px;
+  transition: border 150ms ease;
+  margin: 0.75rem 1rem 0.75rem 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(217, 248, 250);
+  outline: none;
+  width: 55vw;
+}
+
+.custom-input:focus {
+  border-color: #3be0f6;
+  box-shadow: 0 0 3px 1px rgba(59, 234, 246, 0.5);
+}
+
+/* For Webkit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+  /* Dark background */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  /* Thumb color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+  /* On hover */
+}
+
+.mainBg {
+  color: #1e1e1e;
+  background: linear-gradient(162deg, rgba(0, 255, 212, 1) 0%, rgba(0, 115, 255, 1) 100%);
+}
