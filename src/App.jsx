@@ -79,7 +79,7 @@ function App() {
           <div className=''>
             <div className='mainBg rounded-t-2xl pb-3'>
               <div className='flex items-center'>
-                <img className='ml-4 h-15' src="./assets/Logo.png" alt="logo" />
+                <img className='ml-4 h-15' src="/Logo.png" alt="logo" />
                 <h1 className='text-3xl my-3 font-bold mx-2'>Tasko</h1>
               </div>
               <h3 className='mx-8 my-3 font-semibold'>Your personal space for notes, reminders, and everything in between</h3>
